@@ -1,2 +1,2 @@
-Pushing
-
+A timer program in which the time java class runs as service in the background ....
+Example to show how the broadcast recevier works in android !! 
