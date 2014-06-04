@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/sTime"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bBuyATicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Buy A Ticket" />
+
+        <Button
+            android:id="@+id/bResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Resume" />
+
+    </LinearLayout>
+
+</FrameLayout>
